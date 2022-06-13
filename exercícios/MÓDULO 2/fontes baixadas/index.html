@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       @font-face { /* tem que colocar o font-face para fontes baixadas */
+        font-family: Caesar; /* tem que dar o nome */
+        src: url('fontes/CAESAR.TTF') format('truetype');
+       }
+
+        @font-face {
+        font-family: Dalek;
+        src: url('fontes/DalekPinpointBold.ttf') format('truetype');
+       } 
+
+       /* 
+            tipos de format ()
+            - opentype (otf)
+            - truetype (ttf)
+            -svg
+            -embedded-opentype
+            -truetype-aat (Advanced Apple Typography)
+       */
+
+       h1 {
+        font-family: 'Caesar', 'Arial', 'Times';
+        font-size: 3em;
+        font-weight: bold;
+
+       }
+       
+       p {
+        font-family: 'Dalek', Times, serif;
+       }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tempore libero doloribus debitis eaque amet quas provident totam perspiciatis quos. Nostrum fugit ad provident architecto aliquam magnam accusantium minima labore!</p>
+</body>
+</html>

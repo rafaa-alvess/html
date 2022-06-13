@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: blueviolet;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}

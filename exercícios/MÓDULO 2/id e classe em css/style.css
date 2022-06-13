@@ -1,0 +1,45 @@
+/* 
+    em HTML é id    = em css é #
+    em HTML é class = em css é .
+    id para uma aplicação
+    classe para várias
+*/
+
+@charset "UTF-8";
+
+body {
+    background-color: rgb(162, 235, 235);
+}
+
+#principal {
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(80, 80, 156);
+}
+
+h2 {
+    color: rgb(38, 206, 89);
+}
+
+p {
+    text-align: justify;
+}
+
+.subtitulo {
+    background-color: antiquewhite;
+}
+
+.x1 {
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.x2 {
+    color: darkgoldenrod;
+    background-color: rgba(137, 43, 226, 0.589);
+}

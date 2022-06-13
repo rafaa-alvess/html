@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited { /* se o link já foi visitado essa cor vai ser aplicada */
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active { /* enquanto o conteúdo tiver sendo clicado ele vai ficar em amarelo */
+            color: yellow;
+        }
+
+        a::before { /* pseudo elementos encaixam conteúdos por css invés de html */
+            content: '☛';
+        }
+
+        a::after {
+            content: '☚';
+        }
+
+        .especial {
+            background-color: rgb(219, 117, 117);
+            width: 220px;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/">Site curso em vídeo</a></li>
+        <li><a href="https://github.com/gustavoguanabara/">Github Guanabara</a></li>
+        <li class="especial"><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Youtube curso em vídeo</a></li>
+    </ul>
+</body>
+</html>

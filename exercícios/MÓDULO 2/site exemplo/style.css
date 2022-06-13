@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #F2695C, #F2ADA7);
+}
+
+main {
+    background-color: white;
+    width: 600px; /* largura do conteúdo */
+    padding: 10px; /* o espacinho pro conteúdo não ficar colado na borda */
+    margin: auto; /* vai centralizar o conteúdo independente do tamanho da tela */
+    border-radius: 10px; /* arredondar bordas */
+    box-shadow: 5px 5px 15px #a1433bbe; /* coloca sombra, pegue a cor mais escura do gradiente e vai abaixando ela pra pegar uma cor de sombra daora */
+}
+
+h1 {
+    color: #32A69A;
+    text-align: center;
+    text-shadow: 1px 1px 2px #1d615a;
+}
+
+h2 {
+    color: #A63C3C;
+}
+
+p {
+    text-align: justify;
+}
